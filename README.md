@@ -20,12 +20,12 @@ The key goals include:
 <br/>
 2. Grammy Award winners and nominees (1958-2024)<br/>
 - Winners and nominees across all major categories<br/>
-- Captures artist, song, category, and award result
+- Captures artist, song, category, and award result<br/>
 <br/>
 3. Spotify API dataset (pulled 2020)<br/>
 - API-based dataset with musical characteristics:
 valence, energy, tempo, danceability, liveness, etc.<br/>
-- Popularity and metadata for songs and artists
+- Popularity and metadata for songs and artists<br/>
 <br/>
 **Data Cleaning**
 Artist and song/album fields were standardized: lowercased, accents removed, symbols stripped, alternate song versions (e.g., "remastered", "live") normalized. Missing values were handled strategically (NaN values in Grammy columns were labeled as "not nominated").
