@@ -15,25 +15,25 @@ The key goals include:
 **Utilized Data**
 
 1. Billboard Hot 100 (1958-2021)<br/>
-- Weekly rankings for songs that reached the Hot 100<br/>
+- Weekly rankings for songs that reached the Hot 100 <br/>
 - Provides rank, peak position, weeks on chart, etc.
 <br/>
-2. Grammy Award winners and nominees (1958-2024)<br/>
-- Winners and nominees across all major categories<br/>
-- Captures artist, song, category, and award result<br/>
+2. Grammy Award winners and nominees (1958-2024) <br/>
+- Winners and nominees across all major categories <br/>
+- Captures artist, song, category, and award result <br/>
 <br/>
-3. Spotify API dataset (pulled 2020)<br/>
+3. Spotify API dataset (pulled 2020) <br/>
 - API-based dataset with musical characteristics:
-valence, energy, tempo, danceability, liveness, etc.<br/>
-- Popularity and metadata for songs and artists<br/>
+valence, energy, tempo, danceability, liveness, etc. <br/>
+- Popularity and metadata for songs and artists <br/>
 <br/>
-**Data Cleaning**<br/>
-Artist and song/album fields were standardized: lowercased, accents removed, symbols stripped, alternate song versions (e.g., "remastered", "live") normalized. Missing values were handled strategically (NaN values in Grammy columns were labeled as "not nominated").<br/>
+**Data Cleaning** <br/>
+Artist and song/album fields were standardized: lowercased, accents removed, symbols stripped, alternate song versions (e.g., "remastered", "live") normalized. Missing values were handled strategically (NaN values in Grammy columns were labeled as "not nominated"). <br/>
 <br/>
-**Data Merging**<br/>
+**Data Merging** <br/>
 Billboard and Grammy datasets were merged using cleaned artist and song_or_album fields. The resulting music dataset was further merged with Spotify data (when available).<br/>
 <br/>
-**Exploratory Data Analysis (EDA)**<br/>
+**Exploratory Data Analysis (EDA)** <br/>
 1. How many songs on the Billboard were nominated for a grammy?
 2. How many of these nominations received grammys?
 3. What are the averages for each song feature across not nominated, nominated songs, and winning songs?
@@ -41,3 +41,17 @@ Billboard and Grammy datasets were merged using cleaned artist and song_or_album
 5. Who are the most nominated artists?
 6. Which songs are most awarded?
 7. Are there any common song features between the most nominated artists/songs?
+
+## Tools Used
+Python, Pandas.
+
+## How to Run
+1. Clone repo  
+2. Install packages  
+3. Open notebook or report
+
+## Visuals
+https://1drv.ms/p/c/ebc42f68e7bfbc46/ERSe-H8Uf4pJuZ6HWQGJHwYBkCeCIB5nzSRuPrlTTI12mg?e=g9JnVH
+
+## Contact
+[Alaura Robinson] • [alaurarobinson1@gmail.com] • [https://www.linkedin.com/in/alaurarobinson/]
