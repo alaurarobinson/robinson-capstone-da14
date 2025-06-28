@@ -28,12 +28,12 @@ valence, energy, tempo, danceability, liveness, etc.<br/>
 - Popularity and metadata for songs and artists<br/>
 <br/>
 **Data Cleaning**
-Artist and song/album fields were standardized: lowercased, accents removed, symbols stripped, alternate song versions (e.g., "remastered", "live") normalized. Missing values were handled strategically (NaN values in Grammy columns were labeled as "not nominated").
+Artist and song/album fields were standardized: lowercased, accents removed, symbols stripped, alternate song versions (e.g., "remastered", "live") normalized. Missing values were handled strategically (NaN values in Grammy columns were labeled as "not nominated").<br/>
 <br/>
 **Data Merging**
-Billboard and Grammy datasets were merged using cleaned artist and song_or_album fields. The resulting music dataset was further merged with Spotify data (when available).
+Billboard and Grammy datasets were merged using cleaned artist and song_or_album fields. The resulting music dataset was further merged with Spotify data (when available).<br/>
 <br/>
-**Exploratory Data Analysis (EDA)**
+**Exploratory Data Analysis (EDA)**<br/>
 1. How many songs on the Billboard were nominated for a grammy?
 2. How many of these nominations received grammys?
 3. What are the averages for each song feature across not nominated, nominated songs, and winning songs?
