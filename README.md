@@ -1,7 +1,7 @@
 # robinson-capstone-da14
 Capstone for DA14 - Grammys vs. Billboard 100
 
-**Project Overview**
+## Project Overview
 
 This project analyzes data from three major music industry sources — Billboard, the Grammy Awards, and Spotify — to explore the intersection of critical acclaim (Grammy wins), commercial success (Billboard rankings), and musical characteristics (via Spotify audio features).
 
