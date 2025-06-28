@@ -10,28 +10,29 @@ The key goals include:
 1. Investigating how Grammy winners performed throughout the decades.
 2. Identifying artist trends in chart performance.
 3. Exploring which musical features define Grammy-winning vs nominated songs.
+<br/>
 
 **Utilized Data**
 
 1. Billboard Hot 100 (1958-2021)
 - Weekly rankings for songs that reached the Hot 100
 - Provides rank, peak position, weeks on chart, etc.
-
+<br/>
 2. Grammy Award winners and nominees (1958-2024)
 - Winners and nominees across all major categories
 - Captures artist, song, category, and award result
-
+<br/>
 3. Spotify API dataset (pulled 2020)
 - API-based dataset with musical characteristics:
 valence, energy, tempo, danceability, liveness, etc.
 - Popularity and metadata for songs and artists
-
+<br/>
 **Data Cleaning**
 Artist and song/album fields were standardized: lowercased, accents removed, symbols stripped, alternate song versions (e.g., "remastered", "live") normalized. Missing values were handled strategically (NaN values in Grammy columns were labeled as "not nominated").
-
+<br/>
 **Data Merging**
 Billboard and Grammy datasets were merged using cleaned artist and song_or_album fields. The resulting music dataset was further merged with Spotify data (when available).
-
+<br/>
 **Exploratory Data Analysis (EDA)**
 1. How many songs on the Billboard were nominated for a grammy?
 2. How many of these nominations received grammys?
