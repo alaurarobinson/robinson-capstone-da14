@@ -27,10 +27,10 @@ The key goals include:
 valence, energy, tempo, danceability, liveness, etc.<br/>
 - Popularity and metadata for songs and artists<br/>
 <br/>
-**Data Cleaning**
+**Data Cleaning**<br/>
 Artist and song/album fields were standardized: lowercased, accents removed, symbols stripped, alternate song versions (e.g., "remastered", "live") normalized. Missing values were handled strategically (NaN values in Grammy columns were labeled as "not nominated").<br/>
 <br/>
-**Data Merging**
+**Data Merging**<br/>
 Billboard and Grammy datasets were merged using cleaned artist and song_or_album fields. The resulting music dataset was further merged with Spotify data (when available).<br/>
 <br/>
 **Exploratory Data Analysis (EDA)**<br/>
