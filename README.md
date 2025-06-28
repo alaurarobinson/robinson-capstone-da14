@@ -14,17 +14,17 @@ The key goals include:
 
 **Utilized Data**
 
-1. Billboard Hot 100 (1958-2021)
-- Weekly rankings for songs that reached the Hot 100
+1. Billboard Hot 100 (1958-2021)<br/>
+- Weekly rankings for songs that reached the Hot 100<br/>
 - Provides rank, peak position, weeks on chart, etc.
 <br/>
-2. Grammy Award winners and nominees (1958-2024)
-- Winners and nominees across all major categories
+2. Grammy Award winners and nominees (1958-2024)<br/>
+- Winners and nominees across all major categories<br/>
 - Captures artist, song, category, and award result
 <br/>
-3. Spotify API dataset (pulled 2020)
+3. Spotify API dataset (pulled 2020)<br/>
 - API-based dataset with musical characteristics:
-valence, energy, tempo, danceability, liveness, etc.
+valence, energy, tempo, danceability, liveness, etc.<br/>
 - Popularity and metadata for songs and artists
 <br/>
 **Data Cleaning**
